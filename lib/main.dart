@@ -10,8 +10,6 @@ void main() async {
     WidgetsFlutterBinding.ensureInitialized();
     SystemChrome.setPreferredOrientations(
         [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
-    // // final prefs = new PreferenciasUsuario();
-    // await prefs.initPrefs();
     runApp(const MyApp());
   }, (Object error, StackTrace stack) async {});
 }
